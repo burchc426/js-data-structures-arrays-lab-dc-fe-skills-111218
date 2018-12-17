@@ -1,6 +1,5 @@
 // Write your solution here!
 const drivers = ["Milo", "Otis", "Garfield"]
-const allDrivers = [...drivers, "new"]
 function destructivelyAppendDriver() {
   drivers.push("Ralph")
 }
@@ -14,5 +13,5 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift("Milo")
 }
 function appendDriver () {
-  drivers.
+  const allDrivers = [...drivers, "new"]
 }
