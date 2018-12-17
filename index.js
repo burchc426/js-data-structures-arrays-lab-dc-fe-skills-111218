@@ -23,6 +23,6 @@ function prependDriver () {
 }
 
 function removeLastDriver () {
-  const copyOfDrivers = drivers.slice("Garfield")
+  const copyOfDrivers = drivers.slice(1,2)
   return removeLastDriver
 }
