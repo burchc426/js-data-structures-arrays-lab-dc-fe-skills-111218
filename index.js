@@ -16,12 +16,10 @@ function appendDriver () {
   const allDrivers = [...drivers, "Broom"];
   return allDrivers
 }
-
 function prependDriver () {
   const newDrivers = ["Broom", ...drivers];
   return newDrivers
 }
-
 function removeLastDriver () {
   const copyOfDrivers = drivers.slice(1,2)
   return removeLastDriver
