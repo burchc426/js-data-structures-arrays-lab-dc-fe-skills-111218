@@ -23,5 +23,5 @@ function prependDriver () {
 }
 
 function removeLastDriver () {
-  drivers.slice()
+  drivers.slice("Milo")
 }
